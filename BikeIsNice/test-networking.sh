@@ -11,7 +11,7 @@ cd "$PROJECT_DIR"
 echo "=================================================="
 echo " 1. Compiling All Java Classes"
 echo "=================================================="
-javac -cp "target/classes:/home/sahil-sepat/.m2/repository/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar" \
+javac -cp "target/classes:/home/vaibhav-sharma/.m2/repository/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar" \
       -d target/classes \
       src/main/java/com/shopsphere/model/*.java \
       src/main/java/com/shopsphere/util/*.java \
